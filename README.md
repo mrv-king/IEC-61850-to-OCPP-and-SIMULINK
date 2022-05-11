@@ -7,9 +7,9 @@ Two applications should be installed before:
 2. Python ver 3.8 (or lower)
 
 List of preinstalled Python libraries:
-a. websockets ( pip install websockets ) 
-b. ocpp ( pip install ocpp )
-c. inputimeout ( pip install inputimeout )
+1. websockets ( pip install websockets ) 
+2. ocpp ( pip install ocpp )
+3. inputimeout ( pip install inputimeout )
 
 Before start working with designed application, the MATLAB Engine API should be installed for Python. The instruction on how to do it see here:
 https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
