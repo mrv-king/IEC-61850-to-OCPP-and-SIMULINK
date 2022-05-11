@@ -13,8 +13,9 @@ Two applications should be installed before:
 3. inputimeout ( pip install inputimeout )
 
 
-# Before starting work with the designed application, the MATLAB Engine API should be installed for Python. The instruction on how to do it see here:
-# https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
+# IMPORTANT
+Before starting work with the designed application, the MATLAB Engine API should be installed for Python. The instruction on how to do it see here:
+https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
 
 
 # APPLICATION LIMITATIONS
