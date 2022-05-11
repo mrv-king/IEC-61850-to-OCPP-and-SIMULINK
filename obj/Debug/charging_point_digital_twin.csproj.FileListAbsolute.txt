@@ -1,0 +1,10 @@
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\bin\Debug\charging_point_digital_twin.exe.config
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\bin\Debug\charging_point_digital_twin.exe
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\bin\Debug\charging_point_digital_twin.pdb
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\obj\Debug\charging_point_digital_twin.csprojAssemblyReference.cache
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\obj\Debug\charging_point_digital_twin.Form1.resources
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\obj\Debug\charging_point_digital_twin.Properties.Resources.resources
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\obj\Debug\charging_point_digital_twin.csproj.GenerateResource.cache
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\obj\Debug\charging_point_digital_twin.csproj.CoreCompileInputs.cache
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\obj\Debug\charging_point_digital_twin.exe
+C:\Users\nikgal-local\Desktop\C Sharp\charging_station_digital_twin\charging_point_digital_twin\obj\Debug\charging_point_digital_twin.pdb

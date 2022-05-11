@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <SCDElement name="CBR" path="powerlib/Elements/Three-Phase Breaker" ports="two side" Rside_cont_num="3" Lside_cont_num="3">
+    <parameter>'InitialState', 'open'</parameter>
+	<parameter>'External', 'yes'</parameter>
+  </SCDElement>
+  <SCDElement name="BAT" path="electricdrivelib/Extra Sources/Battery" ports="one side" Rside_cont_num="2" Lside_cont_num="0">
+    <parameter>'SOC', '50'</parameter>
+	<parameter>'BatType', 'Lithium-Ion'</parameter>
+	<parameter>'NomV', '400'</parameter>
+	<parameter>'Units', 'Ampere-hour'</parameter>
+  </SCDElement>
+  <SCDElement name="CTR" path="powerlib/Measurements/Three-Phase V-I Measurement" ports="two side" Rside_cont_num="3" Lside_cont_num="3">
+    <parameter>'VoltageMeasurement', 'no'</parameter>
+    <parameter>'CurrentMeasurement', 'yes'</parameter>
+  </SCDElement>
+  <SCDElement name="IFL" path="powerlib/Elements/Ground" ports="one side" Rside_cont_num="0" Lside_cont_num="1"/>
+  <SCDElement name="DIS" path="powerlib/Elements/Three-Phase Breaker" ports="two side" Rside_cont_num="3" Lside_cont_num="3">
+    <parameter>'InitialState', 'open'</parameter>
+  </SCDElement>
+  <SCDElement name="VTR" path="powerlib/Measurements/Three-Phase V-I Measurement" ports="two side" Rside_cont_num="3" Lside_cont_num="3">
+    <parameter>'VoltageMeasurement', 'phase-to-phase'</parameter>
+    <parameter>'CurrentMeasurement', 'no'</parameter>
+  </SCDElement>
+  <SCDElement name="CAP" path="sps_lib/Passives/Three-Phase Series RLC Branch" ports="two side" Rside_cont_num="3" Lside_cont_num="3">
+    <parameter>'BranchType', 'C'</parameter>
+    <parameter>'Capacitance', '100e-6'</parameter>
+  </SCDElement>
+  <SCDElement name="PSH" path="powerlib/Elements/Three-Phase Series RLC Branch" ports="two side" Rside_cont_num="3" Lside_cont_num="3">
+    <parameter>'BranchType', 'R'</parameter>
+    <parameter>'Resistance', '100'</parameter>
+  </SCDElement>
+  <SCDElement name="CON" path="electricdrivelib/Extra Sources/CCCV Battery Charger" ports="two side" Rside_cont_num="2" Lside_cont_num="3">
+      <parameter>'eff_volt', '100'</parameter>
+	  <parameter>'in_freq', '50'</parameter>
+	  <parameter>'nom_temp', '25'</parameter>
+  </SCDElement>
+  <SCDElement name="CAB" path="powerlib/Elements/Distributed Parameters Line" ports="two side" Rside_cont_num="2" Lside_cont_num="2">
+    <parameter>'Phases', '2'</parameter>
+    <parameter>'Length', '2e-3'</parameter>
+  </SCDElement>
+</configuration>
